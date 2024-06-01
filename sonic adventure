@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Adventure Download</title>
+</head>
+<body>
+    <button id="downloadButton">Download Sonic Adventure</button>
+
+    <script>
+        document.getElementById("downloadButton").addEventListener("click", function() {
+            var url = "https://example.com/SonicAdventure.zip"; // Dosyanın URL'si
+
+            // Bağlantıyı indirmek için bir bağlantı öğesi oluşturun ve tıklayın
+            var a = document.createElement("a");
+            a.href = url;
+            a.download = "SonicAdventure.zip";
+            document.body.appendChild(a);
+            a.click();
+
+            // Bağlantı öğesini kaldırın
+            document.body.removeChild(a);
+        });
+    </script>
+</body>
+</html>

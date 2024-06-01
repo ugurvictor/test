@@ -1,0 +1,101 @@
+.mamamia{
+    background-color: rgb(204, 13, 13);
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 30px;
+}
+.maamaazon{
+    background-color: rgb(226, 147, 0);
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 30px;
+}
+.maamaazon:hover{
+    background-color: rgb(255, 180, 40);
+}
+.mamamia:hover{
+    background-color: rgb(255, 33, 33);
+}
+.sega{
+ border: 1px solid red;
+ background-color: red;
+ width: 120px;
+ height: 100px;
+}
+.nintendo{
+   border: 1px solid green;
+   width: 700px;
+   height: 100px;
+   top: -102px;
+   left: 120px;
+   position: relative;
+   background-color: green;
+}
+.mama{
+    border: 1px solid rgb(232, 255, 74);
+    background-color: rgb(252, 255, 74);
+    width: 820px;
+    height: 100px;
+    position: relative;
+    top: -101px;
+    left: 0px;
+   
+}
+.papa{
+  border: 1px solid blue;
+  background-color: blue;
+  width: 270px;
+  height: 180px;
+  position: relative;
+  top: -100px;
+  
+}
+.playstation{
+    border: 1px solid rgb(82, 82, 82);
+    background-color: rgb(82, 82, 82);
+    width: 280px;
+    height: 180px;
+    position: relative;
+    top: -282px;
+    left: 265px;
+}
+.xbox{
+    border: 1px solid rgb(243, 154, 255);
+    background-color: rgb(243, 154, 255);
+    width: 280px;
+    height: 180px;
+    position: relative;
+    top: -464px;
+    left: 545px;
+}
+.capcom{
+    border: 1px solid rgb(154, 255, 179);
+    background-color: rgb(154, 255, 179);
+    width: 710px;
+    height: 500px;
+    position: relative;
+    top: -464px;
+    left: 0px;
+}
+.china{
+    border: 1px solid rgb(100, 80, 13);
+    background-color: rgb(100, 80, 13);
+    width: 115px;
+    height: 500px;
+    position: relative;
+    top: -966px;
+    left: 710px;
+}
+.usa{
+    border: 1px solid rgb(97, 210, 255);
+    background-color: rgb(97, 210, 255);
+    width: 825px;
+    height: 100px;
+    position: relative;z
+    top: -965px;
+    left: 0px;
+}

@@ -1,0 +1,37 @@
+.sonic{
+    background-color: blue;
+    height: 50px;
+    width: 200px;
+    font-size: 21px;
+    border-radius: 30px;
+    text-align: center;
+
+
+}
+.sonic:hover{
+    background-color: rgb(255, 0, 0);
+    text-decoration: overline;
+    
+}
+.sonic:active{
+    background-color: rgb(0, 132, 255);
+    text-decoration:line-through ;
+    
+}
+.tails{
+    text-align: center;
+    background-color: yellow;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+
+}
+.luigi{
+    text-align: left;
+}
+.tails:hover{
+    background-color: rgb(255, 255, 140);
+}
+.niyah_ah{
+    background-color: bisque;
+}
